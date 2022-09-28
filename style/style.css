@@ -39,7 +39,7 @@ p {
   line-height: 26px;
 }
 .footer-row p {
-  color: #fff;
+  color: rgb(0, 0, 0);
 }
 p.description {
   font-family: "Open Sans";
@@ -68,7 +68,7 @@ blockquote {
   font-style: italic;
   color: #777;
   line-height: 30px;
-  background: #f5f5f5;
+  background: #000000;
   padding: 30px 70px 40px;
   text-align: center;
 }
@@ -578,7 +578,7 @@ body .header-container .menu-container .sf-menu > li:first-child > a {
 .menu-container .sf-menu li:hover ul li a {
   color: #777;
   border-top: 1px solid #0d0d0d;
-  background-color: #fff;
+  background-color: rgb(0, 0, 0);
   padding: 12px 20px 13px;
   background-image: none;
 }
@@ -820,6 +820,7 @@ body.overlay .background-overlay {
 }
 .row.gray {
   background: #f5f5f5;
+  color: #000;
 }
 .row.dark-gray {
   background: #73767a;
@@ -1650,16 +1651,16 @@ body .type-small .testimonials-list .ornament.empty-circle::before {
 }
 /* --- backgrounds --- */
 .background-1 {
-  background-image: url("../images/samples/960x680/image_01.jpg");
+  background-image: url("../images/ferrari/Ferrari-Omologata-2020-2.webp");
   background-size: cover;
   background-position: center;
 }
 /* --- parallax --- */
 .parallax-1 {
-  background-image: url("../images/samples/1920x1200/image_01.jpg");
+  background-image: url("../images/ferrari/49d159ec538c9791b6a69bec1257702d.jpg");
 }
 .parallax-2 {
-  background-image: url("../images/samples/1920x1200/image_02.jpg");
+  background-image: url("../images/ferrari/49d159ec538c9791b6a69bec1257702d.jpg");
 }
 .parallax,
 .parallax h2,
@@ -2237,7 +2238,7 @@ span.number.sign {
 }
 #comments-list .comment-details .more {
   float: right;
-  color: #a4aab3;
+  color: #1e1e1e;
   margin-top: -22px;
   font-weight: 500;
   font-size: 11px;
@@ -2265,7 +2266,7 @@ span.number.sign {
 }
 .pagination li a:hover:before,
 .pagination li a.selected:before {
-  color: #fff;
+  color: rgb(45, 45, 45);
 }
 .pagination li.left a,
 .pagination li.right a {
@@ -2290,7 +2291,7 @@ span.number.sign {
 }
 .pagination li a:hover,
 .pagination li.selected a {
-  color: #fff;
+  color: rgb(14, 14, 14);
   background-color: red;
   border-color: red;
 }
@@ -2321,13 +2322,13 @@ li.template-bullet:before {
   font-size: 18px;
 }
 .footer-row .list li {
-  color: #fff;
+  color: rgb(0, 0, 0);
 }
 .footer-row li.template-bullet:before {
   color: #aeafb0;
 }
 .footer-row .list li a {
-  color: #fff;
+  color: rgb(0, 0, 0);
 }
 /* --- tabs navigation --- */
 .tabs-navigation {
@@ -2386,7 +2387,7 @@ li.template-bullet:before {
   text-align: center;
   font-size: 14px;
   color: #777;
-  background: #fff;
+  background: rgb(17, 17, 17);
   padding: 10px 0 23px;
   border: none;
   font-family: "Open Sans";
@@ -2596,7 +2597,7 @@ li.template-bullet:before {
   font-size: 14px;
   padding: 17px;
   border-right: 1px solid #0d0d0d;
-  color: #a4aab3;
+  color: #000000;
 }
 .template-search:hover {
   color: #777;
@@ -2608,7 +2609,7 @@ li.template-bullet:before {
   right: 0;
   padding: 12px 10px;
   margin-top: 5px;
-  background: #f5f5f5;
+  background: #3d3d3d;
   z-index: 99;
 }
 .search .search-input {
@@ -3403,4 +3404,10 @@ body .logo-title {
   max-height: auto;
   background-size: contain;
   object-fit: contain;
+}
+.container-img {
+  display: flex;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
 }
